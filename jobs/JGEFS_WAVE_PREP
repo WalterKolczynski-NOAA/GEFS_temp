@@ -115,8 +115,7 @@ export pgmout=OUTPUT.$$
 export MP_PULSE=0
 
 # CDO required for processing RTOFS currents
-# export CDO=${COMROOTp2}/nwprod/rtofs_glo.v1.2.0/bin/cdo
-export CDO=/gpfs/dell2/emc/verification/noscrub/Todd.Spindler/CDO/bin/cdo
+export CDO=/gpfs/dell1/nco/ops/nwprod/rtofs_shared/rtofs_cdo.v1.6.0/bin/cdo
 
 # export ROTDIR=
 
