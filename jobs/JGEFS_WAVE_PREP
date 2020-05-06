@@ -114,11 +114,6 @@ export pgmout=OUTPUT.$$
 
 export MP_PULSE=0
 
-# CDO required for processing RTOFS currents
-export CDO=/gpfs/dell1/nco/ops/nwprod/rtofs_shared/rtofs_cdo.v1.6.0/bin/cdo
-
-# export ROTDIR=
-
 [[ ! -d $COMOUT ]] && mkdir -m 775 -p $COMOUT
 
 export COMIN_WAV_ICE=${COMIN_WAV_ICE:-$(compath.py gfs/prod)/${WAVICEPRFX}.${PDY}/${cyc}}
